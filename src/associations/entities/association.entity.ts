@@ -1,5 +1,4 @@
-//import { Minute } from 'src/minute/minute.entity';
-
+import { Minute } from 'src/minutes/minutes.entity';
 import { User } from '../../users/users.entity';
 import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable, ManyToOne, OneToMany } from 'typeorm';
 
@@ -15,6 +14,6 @@ export class Association {
   @JoinTable()
   users: User[];
 
-  /*@OneToMany(() => Minute, minute => minute.associationId)
-  minutes?: Minute[];*/
+  @OneToMany(() => Minute, minute => minute.associationId)
+  minutes?: Minute[];
 }

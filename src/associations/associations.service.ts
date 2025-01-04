@@ -6,6 +6,7 @@ import { UsersService } from '../users/users.service';
 import { AssociationDTO } from './entities/associations.dto';
 import { Member } from './associations.member';
 import { User } from '../users/users.entity';
+import { RoleService } from 'src/role/role.service';
 //import { MinuteService } from 'src/minute/minute.service';
 //import { RoleService } from 'src/role/role.service';
 
@@ -19,9 +20,9 @@ export class AssociationsService {
         private repository: Repository<Association>,
         private userService: UsersService,
         /*@Inject(forwardRef(() => MinuteService))
-        private minuteService:MinuteService, 
+        private minuteService:MinuteService,*/ 
         @Inject(forwardRef(() => RoleService))
-        private roleService:RoleService,*/ 
+        private roleService:RoleService
     ) {}
     
     async getAll(): Promise<AssociationDTO[]> {

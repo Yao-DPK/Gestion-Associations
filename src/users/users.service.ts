@@ -3,13 +3,13 @@ import { User } from './users.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { DeleteResult, Equal, Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-//import { RoleService } from 'src/role/role.service';
+import { RoleService } from '../role/role.service';
 
 @Injectable()
 export class UsersService {
   constructor(
-    /*@Inject(forwardRef(() => RoleService))
-    private roleService: RoleService,*/
+    @Inject(forwardRef(() => RoleService))
+    private roleService: RoleService,
     @InjectRepository(User)
     private repository: Repository<User>,
   ) {}
@@ -75,7 +75,7 @@ export class UsersService {
     return result;
   }
 
-  /*async getUserRoles(userId: number): Promise<{ roleName: string }[]> {
+  async getUserRoles(userId: number): Promise<{ roleName: string }[]> {
     const user = await this.getbyId(userId);
     if (!user) {
       throw new HttpException('User not found', HttpStatus.NOT_FOUND);
@@ -83,5 +83,5 @@ export class UsersService {
 
     const roles = await this.roleService.getUserRoles(userId);
     return roles.map((role) => ({ roleName: role.name }));
-  }*/
+  }
 }
