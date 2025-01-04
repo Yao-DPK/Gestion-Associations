@@ -6,6 +6,8 @@ import { AssociationsModule } from './associations/associations.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AuthModule } from './auth/auth.module';
+import { RoleModule } from './role/role.module';
+import { MinuteModule } from './minutes/minutes.module';
 
 @Module({
   imports: [
@@ -27,7 +29,9 @@ import { AuthModule } from './auth/auth.module';
       })
     }),
      AssociationsModule,
-     AuthModule
+     AuthModule,
+     RoleModule,
+     MinuteModule
   ],
   controllers: [AppController],
   providers: [AppService],

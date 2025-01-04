@@ -5,13 +5,12 @@ import { UserInput } from './users.input';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import * as bcrypt from 'bcrypt';
 import { AuthGuard } from '../auth/auth.guard';
-
-//import { RoleService } from 'src/role/role.service';
+import { RoleService } from 'src/role/role.service';
 
 @ApiTags('users')
 @Controller('users')
 export class UsersController {
-  constructor(private service: UsersService/*, private rolesService: RoleService*/) {}
+  constructor(private service: UsersService, private rolesService: RoleService) {}
 
   //@UseGuards(AuthGuard)
   @Get()
