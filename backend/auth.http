@@ -1,4 +1,4 @@
-POST  http://localhost:3000/auth-v2/login
+POST  http://localhost:3001/auth/login
 content-type: application/json
 
 {
@@ -9,5 +9,5 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/auth-v2/profile
+GET http://localhost:3001/auth/profile
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoiam9uaGRvZUBnbWFpbC5jb20iLCJuYW1lIjoiSm9obkRvZSIsImlhdCI6MTczNjAwNTIzNiwiZXhwIjoxNzM2MDA1Mjk2fQ.aSk3-6I06_6cVnpvEEfIYdmBEQMocx7KEWsam251giI

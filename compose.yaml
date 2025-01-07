@@ -11,6 +11,7 @@ services:
       - "5435:5432"
     volumes:
       - db-data:/var/lib/postgresql/data_association
+    
 
   backend:
     container_name: association_backend
@@ -44,6 +45,8 @@ services:
     stdin_open: true
     tty: true
     command: ["npm", "start"]
+    links:
+      - backend
 
 volumes:
   db-data: {}

@@ -1,0 +1,32 @@
+table {
+    margin: 20px auto;         /* Center the table horizontally */
+    width: 80%;                /* Set width to 80% of the container */
+    border-collapse: collapse; /* Remove space between borders */
+    font-family: Arial, sans-serif; /* Set a clean, modern font */
+    background-color: #f9f9f9; /* Light background */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Soft grey border */
+}
+
+th {
+    background-color: #007bff; /* Blue background for header */
+    color: black;              /* White text in header */
+    padding: 10px 15px;        /* Padding for header */
+    text-align: left;          /* Left align header text */
+}
+
+td {
+    padding: 8px 12px;         /* Padding for table cells */
+    text-align: left;          /* Left align cell text */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra stripe effect for even rows */
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* Highlight row when hovered */
+    cursor: pointer;           /* Change cursor to pointer on hover */
+}

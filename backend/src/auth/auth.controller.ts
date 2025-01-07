@@ -28,7 +28,7 @@ export class AuthController {
         }
 }*/
 
-@Controller('auth-v2')
+@Controller('auth')
 export class AuthController {
   
   constructor(

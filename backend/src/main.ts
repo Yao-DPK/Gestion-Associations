@@ -5,6 +5,7 @@ import helmet from 'helmet';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  //app.setGlobalPrefix('v1');
   app.use(helmet());
   const config = new DocumentBuilder()
     .setTitle('Gestion des Associations')
@@ -13,6 +14,14 @@ async function bootstrap() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
+
+
+  // Enable CORS and allow the frontend origin
+  app.enableCors({
+    origin: 'http://localhost:4201', // Frontend origin in Docker
+    methods: 'GET,HEAD,POST,PUT,DELETE,PATCH,OPTIONS',
+    credentials: true, // Allow cookies, if needed
+  });
 
   await app.listen(process.env.PORT ?? 3000);
 }
