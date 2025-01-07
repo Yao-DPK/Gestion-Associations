@@ -2,12 +2,18 @@
 
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
-![NestJS](https://img.shields.io/badge/NestJS-%23000000.svg?style=flat&logo=nestjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?style=flat&logo=jest&logoColor=white)
 
+## 📖Sommaire :
+
+1. [**Technologies utilisées**](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
+
+2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
+3. **Installation** : Explications pour configurer et démarrer l'application en local.
+4. **Structure du projet** : Présentation de la structure des dossiers et fichiers du projet.
+5. **Exécution des tests** : Comment exécuter les tests unitaires et d'intégration.
+6. **Déploiement** : Quelques notes pour déployer l'application.
+7. **Contribuer** : Comment contribuer à ce projet.
+8. **Licence** : Licence choisie pour le projet.
 
 ## Status
 En cours
@@ -137,16 +143,5 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 
 ```
 
-## 📖Sommaire :
-
-1. [Technologies utilisées](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
-
-2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
-3. **Installation** : Explications pour configurer et démarrer l'application en local.
-4. **Structure du projet** : Présentation de la structure des dossiers et fichiers du projet.
-5. **Exécution des tests** : Comment exécuter les tests unitaires et d'intégration.
-6. **Déploiement** : Quelques notes pour déployer l'application.
-7. **Contribuer** : Comment contribuer à ce projet.
-8. **Licence** : Licence choisie pour le projet.
 
 
