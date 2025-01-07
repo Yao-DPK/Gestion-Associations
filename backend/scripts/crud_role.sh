@@ -36,18 +36,18 @@ delete() {
     request DELETE ${1} ${2} ${3}
 }
 
-post http://localhost:3000/users 201 "name=JohnDoe&email=jonhdoe@gmail.com&age=23&password=john123"
-post http://localhost:3000/users 201 "name=JaneDoe&email=janedoe@gmail.com&age=32&password=jane123"
-post http://localhost:3000/associations 201 "idUsers[]=1&idUsers[]=2&name=Assoc1"
+post http://localhost:3001/users 201 "name=JohnDoe&email=jonhdoe@gmail.com&age=23&password=john123"
+post http://localhost:3001/users 201 "name=JaneDoe&email=janedoe@gmail.com&age=32&password=jane123"
+post http://localhost:3001/associations 201 "idUsers[]=1&idUsers[]=2&name=Assoc1"
 
-post http://localhost:3000/roles 201 "name=member&idUser=1&idAssociation=1"
-post http://localhost:3000/roles 201 "name=president&idUser=2&idAssociation=1"
+post http://localhost:3001/roles 201 "name=member&idUser=1&idAssociation=1"
+post http://localhost:3001/roles 201 "name=president&idUser=2&idAssociation=1"
 
-get http://localhost:3000/roles/1/1 200
-get http://localhost:3000/roles/2/1 200
-get http://localhost:3000/roles/2/2 404
+get http://localhost:3001/roles/1/1 200
+get http://localhost:3001/roles/2/1 200
+get http://localhost:3001/roles/2/2 404
 
-put http://localhost:3000/roles/1/1 200 "name=treasurer"
+put http://localhost:3001/roles/1/1 200 "name=treasurer"
 
-delete http://localhost:3000/roles/1/1 200
-get http://localhost:3000/roles/1/1 404
+delete http://localhost:3001/roles/1/1 200
+get http://localhost:3001/roles/1/1 404

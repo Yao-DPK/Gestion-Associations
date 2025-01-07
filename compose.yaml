@@ -1,4 +1,3 @@
-
 services:
   db:
     container_name: association_db
@@ -8,14 +7,43 @@ services:
       POSTGRES_USER: association_user
       POSTGRES_PASSWORD: association_password
       POSTGRES_DB: association_db
-      
     ports:
       - "5435:5432"
     volumes:
       - db-data:/var/lib/postgresql/data_association
 
+  backend:
+    container_name: association_backend
+    build:
+      context: ./backend
+    restart: always
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: association_user
+      DB_PASSWORD: association_password
+      DB_NAME: association_db
+      NODE_ENV: development
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./backend:/app
+    command: ["npm", "run", "start:dev"]
+
+  frontend:
+    container_name: association_frontend
+    build:
+      context: ./frontend
+    restart: always
+    ports:
+      - "4201:4200"
+    volumes:
+      - ./frontend:/usr/src/app
+    stdin_open: true
+    tty: true
+    command: ["npm", "start"]
+
 volumes:
   db-data: {}
-
-
-
