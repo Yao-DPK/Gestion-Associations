@@ -1,4 +1,4 @@
-# Association App
+# Project Management App
 
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
