@@ -5,13 +5,13 @@ Une application web full-stack permettant de gérer des projets, des tâches et 
 
 ## 📖 Sommaire
 
-1. [**Technologies utilisées**](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
-2. [**Prérequis**](#-prérequis) : Liste des outils nécessaires pour exécuter l'application.
-3. [**Installation**](#-installation) : Explications pour configurer et démarrer l'application en local.
-4. [**Structure du projet**](#-structure-du-projet) : Présentation de la structure des dossiers et fichiers du projet.
-5. [**Exécution des tests**](#-exécution-des-tests) : Comment exécuter les tests unitaires et d'intégration.
-6. [**Déploiement**](#-déploiement) : Quelques notes pour déployer l'application.
-7. [**Contribuer**](#-contribuer) : Comment contribuer à ce projet.
+1. [⚙️**Technologies utilisées**](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
+2. [📦**Prérequis**](#-prérequis) : Liste des outils nécessaires pour exécuter l'application.
+3. [🛠️**Installation**](#-installation) : Explications pour configurer et démarrer l'application en local.
+4. [🗂️**Structure du projet**](#-structure-du-projet) : Présentation de la structure des dossiers et fichiers du projet.
+5. [🧪**Exécution des tests**](#-exécution-des-tests) : Comment exécuter les tests unitaires et d'intégration.
+6. [🚀**Déploiement**](#-déploiement) : Quelques notes pour déployer l'application.
+7. [🤝**Contribuer**](#-contribuer) : Comment contribuer à ce projet.
 
 ## 🔄 Status
 En cours
