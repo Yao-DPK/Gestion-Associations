@@ -12,7 +12,6 @@ Une application web full-stack permettant de gérer des projets, des tâches et 
 5. [**Exécution des tests**](#exécution-des-tests) : Comment exécuter les tests unitaires et d'intégration.
 6. [**Déploiement**](#déploiement) : Quelques notes pour déployer l'application.
 7. [**Contribuer**](#contribuer) : Comment contribuer à ce projet.
-8. [**Licence**](#license) : Licence choisie pour le projet.
 
 ## 🔄 Status
 En cours
