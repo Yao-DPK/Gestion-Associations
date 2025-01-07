@@ -66,7 +66,6 @@ La base de données est accessible via l'hôte `localhost` et le port `5435`. Tu
 │   ├── src/            # Dossier principal des sources du frontend
 │   ├── Dockerfile      # Dockerfile pour le frontend
 │   └── package.json    # Dépendances et configurations frontend
-├── db/                 # Dossier pour le stockage persistant de la base de données
 ├── docker-compose.yml  # Fichier de configuration Docker Compose
 └── README.md           # Ce fichier
 ```
