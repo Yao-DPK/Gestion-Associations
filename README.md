@@ -38,8 +38,7 @@ Avant de pouvoir exécuter l'application, assure-toi d'avoir installé les élé
 Clone ce répertoire sur ta machine locale :
 
 ```bash
-git clone https://github.com/ton-utilisateur/nom-du-repertoire.git
-cd nom-du-repertoire
+[git clone https://github.com/ton-utilisateur/nom-du-repertoire.git](https://github.com/Yao-DPK/Gestion-Associations.git)
 ```
 
 ### 2. Construction des services avec Docker
