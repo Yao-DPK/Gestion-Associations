@@ -4,7 +4,7 @@
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
 ## 📖 Sommaire
-1. [🔄 **Status**]
+1. [🔄 **Status**](#-status): Etat actuel de l'application
 2. [⚙️**Technologies utilisées**](#%EF%B8%8F-technologies-utilis%C3%A9es) : Liste des principales technologies utilisées dans le projet.
 3. [📦**Prérequis**](#-pr%C3%A9requis) : Liste des outils nécessaires pour exécuter l'application.
 4. [🛠️**Installation**](#%EF%B8%8F-installation) : Explications pour configurer et démarrer l'application en local.
