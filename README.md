@@ -2,6 +2,10 @@
 
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
+![NestJS](https://img.shields.io/badge/NestJS-%23000000.svg?style=flat&logo=nestjs&logoColor=white)
+## Status
+En cours
+
 ## Technologies utilisées
 
 - **Backend**: [NestJS](https://nestjs.com/)
