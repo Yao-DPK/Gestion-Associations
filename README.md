@@ -137,9 +137,10 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 
 ```
 
-## **Sommaire** :
+## 📖Sommaire :
 
-1. **Technologies utilisées** -> `#technologies-utilisées : Liste des principales technologies utilisées dans le projet.
+1. [Technologies utilisées](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
+
 2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
 3. **Installation** : Explications pour configurer et démarrer l'application en local.
 4. **Structure du projet** : Présentation de la structure des dossiers et fichiers du projet.
@@ -147,4 +148,5 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 6. **Déploiement** : Quelques notes pour déployer l'application.
 7. **Contribuer** : Comment contribuer à ce projet.
 8. **Licence** : Licence choisie pour le projet.
+
 
