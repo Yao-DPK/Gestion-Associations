@@ -1,24 +1,23 @@
+
 # Project Management App
 
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
-
-## 📖Sommaire :
+## 📖 Sommaire
 
 1. [**Technologies utilisées**](#-technologies-utilisées) : Liste des principales technologies utilisées dans le projet.
+2. [**Prérequis**](#prérequis) : Liste des outils nécessaires pour exécuter l'application.
+3. [**Installation**](#installation) : Explications pour configurer et démarrer l'application en local.
+4. [**Structure du projet**](#structure-du-projet) : Présentation de la structure des dossiers et fichiers du projet.
+5. [**Exécution des tests**](#exécution-des-tests) : Comment exécuter les tests unitaires et d'intégration.
+6. [**Déploiement**](#déploiement) : Quelques notes pour déployer l'application.
+7. [**Contribuer**](#contribuer) : Comment contribuer à ce projet.
+8. [**Licence**](#license) : Licence choisie pour le projet.
 
-2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
-3. **Installation** : Explications pour configurer et démarrer l'application en local.
-4. **Structure du projet** : Présentation de la structure des dossiers et fichiers du projet.
-5. **Exécution des tests** : Comment exécuter les tests unitaires et d'intégration.
-6. **Déploiement** : Quelques notes pour déployer l'application.
-7. **Contribuer** : Comment contribuer à ce projet.
-8. **Licence** : Licence choisie pour le projet.
-
-## Status
+## 🔄 Status
 En cours
 
-## Technologies utilisées
+## ⚙️ Technologies utilisées
 
 - **Backend**: [NestJS](https://nestjs.com/) ![NestJS](https://img.shields.io/badge/NestJS-%23000000.svg?style=flat&logo=nestjs&logoColor=white)
 - **Frontend**: [Angular](https://angular.io/) ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
@@ -26,14 +25,14 @@ En cours
 - **Conteneurisation**: [Docker](https://www.docker.com/) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
 - **Tests**: [Jest](https://jestjs.io/) ![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?style=flat&logo=jest&logoColor=white)
 
-## Prérequis
+## 📦 Prérequis
 
 Avant de pouvoir exécuter l'application, assure-toi d'avoir installé les éléments suivants sur ta machine :
 
 - [Docker](https://www.docker.com/) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
 - [Docker Compose](https://docs.docker.com/compose/) ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-%23329999.svg?style=flat&logo=docker&logoColor=white)
 
-## Installation
+## 🛠️ Installation
 
 ### 1. Clone le répertoire
 
@@ -54,9 +53,9 @@ docker-compose up --build
 
 Cela lancera les services suivants :
 
-- **Frontend (Angular)** : Accessible via le port `4201`
-- **Backend (NestJS)** : Accessible via le port `3001`
-- **Base de données (PostgreSQL)** : Accessible sur le port `5435`
+- **Frontend (Angular)** : Accessible via le port `4201` 🌐
+- **Backend (NestJS)** : Accessible via le port `3001` 🌐
+- **Base de données (PostgreSQL)** : Accessible sur le port `5435` 🗄️
 
 ### 3. Accéder à l'application
 
@@ -70,7 +69,7 @@ La base de données est accessible via l'hôte `localhost` et le port `5435`. Tu
 - **Mot de passe** : `association_password`
 - **Base de données** : `association_db`
 
-## Structure du projet
+## 🗂️ Structure du projet
 
 ```bash
 /
@@ -86,7 +85,7 @@ La base de données est accessible via l'hôte `localhost` et le port `5435`. Tu
 └── README.md           # Ce fichier
 ```
 
-## Exécution des tests
+## 🧪 Exécution des tests
 
 ### Tests unitaires
 
@@ -112,7 +111,7 @@ ng test
 
 Des tests d'intégration peuvent être configurés et exécutés dans le dossier `backend`, suivant les besoins de l'application.
 
-## Déploiement
+## 🚀 Déploiement
 
 ### Variables d'environnement
 
@@ -133,15 +132,10 @@ SECRET_KEY=ton-secret-key
 
 Pour un environnement de production, tu peux ajuster les configurations Docker (par exemple, les ports, les volumes, etc.) dans le fichier `docker-compose.yml` et adapter les configurations dans le fichier `.env`.
 
-## Contribuer
+## 🤝 Contribuer
 
 Nous accueillons les contributions à ce projet ! Si tu souhaites y contribuer, fais une **fork** de ce projet, crée une branche pour ta fonctionnalité, puis soumets une **pull request** avec une description claire de tes changements.
 
-## License
 
-Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plus de détails.
-
-```
-
-
+---
 
