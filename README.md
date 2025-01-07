@@ -3,16 +3,22 @@
 Une application web full-stack permettant de gérer des projets, des tâches et des utilisateurs, avec un backend développé en [NestJS](https://nestjs.com/), un frontend développé en [Angular](https://angular.io/), et une base de données [PostgreSQL](https://www.postgresql.org/).
 
 ![NestJS](https://img.shields.io/badge/NestJS-%23000000.svg?style=flat&logo=nestjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?style=flat&logo=jest&logoColor=white)
+
+
 ## Status
 En cours
 
 ## Technologies utilisées
 
-- **Backend**: [NestJS](https://nestjs.com/)
-- **Frontend**: [Angular](https://angular.io/)
-- **Base de données**: [PostgreSQL](https://www.postgresql.org/)
-- **Conteneurisation**: [Docker](https://www.docker.com/)
-- **Tests**: [Jest](https://jestjs.io/)
+- **Backend**: [NestJS](https://nestjs.com/) ![NestJS](https://img.shields.io/badge/NestJS-%23000000.svg?style=flat&logo=nestjs&logoColor=white)
+- **Frontend**: [Angular](https://angular.io/) ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=flat&logo=angular&logoColor=white)
+- **Base de données**: [PostgreSQL](https://www.postgresql.org/) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=flat&logo=postgresql&logoColor=white)
+- **Conteneurisation**: [Docker](https://www.docker.com/) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
+- **Tests**: [Jest](https://jestjs.io/) ![Jest](https://img.shields.io/badge/Jest-%23C21325.svg?style=flat&logo=jest&logoColor=white)
 
 ## Prérequis
 
