@@ -137,7 +137,7 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 
 ```
 
-### Explication des sections :
+## **Sommaire** :
 
 1. **Technologies utilisées** -> `#technologies-utilisées : Liste des principales technologies utilisées dans le projet.
 2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
