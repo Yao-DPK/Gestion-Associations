@@ -24,8 +24,8 @@ En cours
 
 Avant de pouvoir exécuter l'application, assure-toi d'avoir installé les éléments suivants sur ta machine :
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- [Docker](https://www.docker.com/) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=flat&logo=docker&logoColor=white)
+- [Docker Compose](https://docs.docker.com/compose/) ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-%23329999.svg?style=flat&logo=docker&logoColor=white)
 
 ## Installation
 
@@ -139,7 +139,7 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 
 ### Explication des sections :
 
-1. **Technologies utilisées** : Liste des principales technologies utilisées dans le projet.
+1. **Technologies utilisées** -> `#technologies-utilisées : Liste des principales technologies utilisées dans le projet.
 2. **Prérequis** : Liste des outils nécessaires pour exécuter l'application.
 3. **Installation** : Explications pour configurer et démarrer l'application en local.
 4. **Structure du projet** : Présentation de la structure des dossiers et fichiers du projet.
@@ -148,4 +148,3 @@ Ce projet est sous licence MIT - consulte le fichier [LICENSE](LICENSE) pour plu
 7. **Contribuer** : Comment contribuer à ce projet.
 8. **Licence** : Licence choisie pour le projet.
 
-N'hésite pas à ajuster ce modèle en fonction des spécificités de ton projet.
